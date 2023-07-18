@@ -3,8 +3,8 @@ Configuraciones para obtener las variables de entorno
 """
 import os
 
+from pydantic_settings import BaseSettings
 from dotenv import load_dotenv
-from pydantic import BaseSettings
 
 # Cargamos las variables de entorno
 load_dotenv()
